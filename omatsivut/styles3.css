@@ -1,0 +1,192 @@
+
+.header {
+    position: relative;
+    text-align: center;
+    color: rgb(81, 79, 79);
+  }
+  .verkkosivuni {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: 'Lucida Handwriting';
+    font-size: 40px;
+  }
+
+#navigointikaikki {
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.navigointi {
+    margin: 3px;
+    color: black;
+    text-decoration: none;
+    padding: 7px;
+    font-size: 10px;
+    font-family: 'Lucida Sans';
+    border-radius: 15px;
+    background-color: rgba(192, 180, 174, 0.662);
+}
+.navigointi1 {
+    margin: 3px;
+    color: black;
+    text-decoration: none;
+    padding: 7px;
+    font-size: 10px;
+    font-family: 'Lucida Sans';
+    border-radius: 15px;
+    background-color: rgba(192, 180, 174, 0.662);
+    border: 1px solid black;
+}
+.navigointi:hover {
+    color: white;
+}
+.navigointi1:hover {
+    color: white;
+}
+
+#Etusivunteksti {
+    font-family: 'Lucida Sans';
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+.row {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}  
+.column {
+    flex: 25%; 
+}
+.container {
+    position: relative;
+    width: 50%;
+    max-width: 100%;
+}
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlay {
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 90%;
+    height: 100%;
+    transition: .5s ease;
+    opacity: 0;
+}
+.container:hover .overlay {
+    opacity: 1;
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Lucida Sans';
+    font-size: 12px;
+}
+
+.footer {
+    position:relative;
+    text-align: right; 
+}
+.navigointi-footer {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    text-align: right; 
+    left: 20%;
+    top: 20%;
+}
+.navigointif {  
+    margin: 3px;
+    color: black;
+    text-decoration: none;
+    padding: 7px;
+    font-size: 8px;
+    font-family: 'Lucida Sans';
+    border-radius: 15px;
+    background-color: rgba(192, 180, 174, 0.662);
+}
+.navigointif1 {  
+    margin: 3px;
+    color: black;
+    text-decoration: none;
+    padding: 7px;
+    font-size: 8px;
+    font-family: 'Lucida Sans';
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: rgba(192, 180, 174, 0.662);
+}
+.navigointif:hover {
+    color: white;
+}
+.navigointif1:hover {
+    color: white;
+}
+#tekija {
+    position: absolute;
+    bottom: 2px;
+    left: 30%;
+    font-size: 10px;
+    font-family: 'Lucida Sans';
+  }
+#pentuaika {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Lucida Sans';
+    text-decoration: none;
+    font-size: 12px;
+}
+#otayhteyttä {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Lucida Sans';
+    font-size: 12px;
+}
+.tietoa {
+    margin-top: 10px;
+    font-family: 'Lucida Sans';
+    font-size: 10px;
+    text-align: left;
+}
+.mb-3 {
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 150px;
+
+}
+.form-label {
+    font-size: 12px;
+    font-family: 'Lucida Sans';
+}
+
+.lähetä {
+    text-align: right;
+    margin-right: 20px;
+}
+#carouselExampleFade {
+    width: 250px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+
+
+
