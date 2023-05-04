@@ -9,7 +9,7 @@
     left: 55%;
     transform: translate(-50%, -50%);
     font-family: 'Lucida Handwriting';
-    font-size: 40px;
+    font-size: 55px;
   }
 
 #navigointikaikki {
@@ -22,7 +22,7 @@
     color: black;
     text-decoration: none;
     padding: 7px;
-    font-size: 10px;
+    font-size: 14px;
     font-family: 'Lucida Sans';
     border-radius: 15px;
     background-color: rgba(192, 180, 174, 0.662);
@@ -32,7 +32,7 @@
     color: black;
     text-decoration: none;
     padding: 7px;
-    font-size: 10px;
+    font-size: 14px;
     font-family: 'Lucida Sans';
     border-radius: 15px;
     background-color: rgba(192, 180, 174, 0.662);
@@ -45,15 +45,6 @@
     color: white;
 }
 
-#Etusivunteksti {
-    font-family: 'Lucida Sans';
-    text-align: center;
-    margin-top: 30px;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-bottom: 30px;
-    font-size: 12px;
-}
 .row {
     padding-top: 50px;
     padding-right: 50px;
@@ -62,7 +53,7 @@
 }  
 .column {
     flex: 25%; 
-    margin-left: 50px;
+    margin-left: 100px;
 }
 .container {
     width: 50%;
@@ -104,7 +95,7 @@
     color: black;
     text-decoration: none;
     padding: 7px;
-    font-size: 8px;
+    font-size: 12px;
     font-family: 'Lucida Sans';
     border-radius: 15px;
     background-color: rgba(192, 180, 174, 0.662);
@@ -114,7 +105,7 @@
     color: black;
     text-decoration: none;
     padding: 7px;
-    font-size: 8px;
+    font-size: 12px;
     font-family: 'Lucida Sans';
     border-radius: 15px;
     border: 1px solid black;
@@ -133,13 +124,7 @@
     font-size: 10px;
     font-family: 'Lucida Sans';
   }
-#pentuaika {
-    text-align: center;
-    margin-top: 20px;
-    font-family: 'Lucida Sans';
-    text-decoration: none;
-    font-size: 12px;
-}
+
 #otayhteyttä {
     text-align: center;
     padding-top: 10px;
@@ -147,9 +132,9 @@
     font-size: 12px;
 }
 .tietoa {
-    margin-top: 10px;
+    margin-top: 15px;
     font-family: 'Lucida Sans';
-    font-size: 10px;
+    font-size: 15px;
     text-align: left;
 }
 .mb-3 {
